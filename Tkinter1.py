@@ -1,12 +1,11 @@
-'''
-•Buatlah GUI dengan Tkinter yang berisi:
-   1 label judul Aplikasi prediksi Prodi Pilihan
-   10 input nilai mata pelajaran
-   1 button bertuliskan Hasil Prediksi
-   1 label luaran hasil prediksi
-•Atur posisi GUI sebaik mungkin!
-•Fungsi Hasil Prediksi menuliskan prodi TeknologiInformasi apapun input yang diberikan!
-'''
+##Buatlah GUI dengan Tkinter yang berisi:
+##1 label judul Aplikasi prediksi Prodi Pilihan
+##10 input nilai mata pelajaran
+##1 button bertuliskan Hasil Prediksi
+##1 label luaran hasil prediksi
+##Atur posisi GUI sebaik mungkin!
+##Fungsi Hasil Prediksi menuliskan prodi TeknologiInformasi apapun input yang diberikan!
+
 
 import tkinter as tk
 from tkinter import messagebox
@@ -28,3 +27,8 @@ label_judul.pack(pady=10)
 
 frame_input = tk.Frame(root) ##membuat input frame
 frame_input.pack(pady=10, padx=20)
+
+matapelajaran_list = [ ##daftar mapel
+    "Matematika", "Bahasa Indonesia", "English", "Fisika", "Kimia", "Biologi", "Ekonomi", "Sejarah", "Geografi", "Seni Budaya"
+]
+entries = []
