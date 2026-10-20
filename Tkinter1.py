@@ -44,3 +44,10 @@ for i, matpel in enumerate(matapelajaran_list):##Membuat 10 Label dan Entry nila
     ent.grid(row=i, column=1, pady=2, padx=5)
     entries.append(ent)
 
+btn_prediksi = tk.Button(##Button bertuliskan 'Hasil Prediksi'
+    root, 
+    text="Hasil Prediksi", 
+    command=prediksi_prodi,
+    bg="#e1e1e1"
+)
+btn_prediksi.pack(pady=15)
