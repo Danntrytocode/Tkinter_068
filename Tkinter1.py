@@ -51,3 +51,11 @@ btn_prediksi = tk.Button(##Button bertuliskan 'Hasil Prediksi'
     bg="#e1e1e1"
 )
 btn_prediksi.pack(pady=15)
+label_hasil = tk.Label(##Label luaran hasil prediksi
+    root, 
+    text="Hasil Prediksi: -", 
+    font=("Arial", 11, "bold")
+)
+label_hasil.pack(pady=5)
+
+root.mainloop()
