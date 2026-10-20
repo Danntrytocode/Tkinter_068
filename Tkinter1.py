@@ -14,3 +14,6 @@ from tkinter import ttk
 
 def prediksi_prodi(): ##Fungsi Hasil Prediksi menuliskan prodi Teknologi Informasi apapun input yang diberikan!
     label_hasil.config(text="Hasil Prediksi: Teknologi Informasi")
+
+root = tk.Tk() ##1 label judul Aplikasi prediksi Prodi Pilihan
+root.title ("Aplikasi Prediksi Prodi Pilihan")
