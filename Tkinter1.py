@@ -25,3 +25,6 @@ label_judul = tk.Label( ##Membuat label judul
     font=("Arial", 14, "bold")
 )
 label_judul.pack(pady=10)
+
+frame_input = tk.Frame(root) ##membuat input frame
+frame_input.pack(pady=10, padx=20)
