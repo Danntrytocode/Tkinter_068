@@ -22,8 +22,8 @@ root.configure(bg="#2A1B3D")
 label_judul = tk.Label( ##Membuat label judul
     root, 
     text="Aplikasi Prediksi Prodi Pilihan", 
-    font=("Arial", 14, "bold")
-    bg="#2A1B3D"
+    font=("Arial", 14, "bold"),
+    bg="#2A1B3D",
     fg="#FFD700"
 )
 label_judul.pack(pady=10)
